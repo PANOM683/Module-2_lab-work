@@ -1,0 +1,100 @@
+:root {
+    --big-color: #23507d;
+    --medium-color: #fff;
+    --light-color: #66b;
+
+    --background-prime: #e4cdcd;
+    --background-key: #5e0909;
+    --background-key-light: #1e2729;
+
+    --text-color: #13901e;
+    --text-link: rgb(247, 11, 145);
+    --text-link-hover: rgb(7, 7, 222);
+}
+
+body {
+    margin: 0;
+    font-family: Cochin, sans-serif;
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 14px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 1.3rem;
+    margin: 10px 0;
+}
+h3 {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+a:link,
+a:visited{
+    color: var(--text-link);
+}
+
+a:hover,
+a:active {
+    color: var(--text-link-hover)
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+main>header {
+    flex: 1;
+    background-color: var(--background-key);
+    padding: 10px 10px;
+    margin: 0 -10px;
+}
+
+main>aside{
+    flex: 2;
+    padding: 0 20px;
+}
+
+main>aside>section {
+    border-bottom: 1px solid #aaa;
+}
+
+footer{
+    padding: 20px;
+    margin: 20px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-key-light);
+}
+
+.skill-item-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 20px;
+}
+
+.education-item-container{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head> 
+  <title>My Form Page</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Arav Patel">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/lab-1-html/index.html">Home</a>
+            <a href="/lab-1-html/form.html">Form</a>
+        </nav>
+    </header>
+    
+    
+    <main>
+        <form method="POST" action="http://localhost:3000/profile">
+
+        <div>
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName">
+        </div>
+        <div>
+            <label for="lastName">last name</label>
+            <input type="text" id="lastName" name="lastName">
+        </div>
+
+<!-- VI - 3 -->
+        <div>
+            <input type="radio" id="html" name="favorite_language" value="html">
+            <label for="html">HTML</label>
+
+            <input type="radio" id="css" name="favorite_language" value="CSS">
+            <label for="css">CSS</label>
+
+            <input type="radio" id="javascript" name="favorite_language" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+        </div>
+
+    <!-- VI 4 -->
+     <div>
+        <input type="checkbox" id="ice-cream" name="favorite_flavour" value="Coco">
+        <label for="ice-cream">Coco</label>
+
+        <input type="radio" id="ice-cream2" name="favorite_flavour" value="Mint">
+        <label for="ice-cream2">Mint</label>
+
+        <input type="radio" id="ice-cream3" name="favorite_flavour" value="Vanilla">
+        <label for="ice-cream3">Vanilla</label>
+     </div>
+
+     <!-- VI - 5 -->
+      <div>
+        <label for="car">Choose a car:</label>
+        <select name="car" id="car">
+            <option value="volvo">volvo</option>
+            <option value="toyota">Toyota</option>
+            <option value="BMW">BMW</option>
+            <option value="kia">Kia</option>
+        </select>
+      </div>
+      
+      <!-- VI - 6 -->
+      <button type="sumbit">Submit form</button>
+      </form>
+    </main>
+
+    <footer>Copyright &copy; 2024</footer>
+</body>
+</html>

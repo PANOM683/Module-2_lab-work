@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head> <!-- Setp 2 -->
+  <title>My First Page - Arav Patel</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Arav Patel">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <!-- works like <a href="/index.html">Home</a> -->
+      <a href="/lab-1-html/index.html">Home</a>
+      <a href="/lab-1-html/form.html">Form</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>My HTML learing journey</h1>
+
+    <article>
+      <!-- Content added in previous points -->
+      <h2>Learning elements - div, span, p, pre, ul, li, ol, article.</h2>
+      <div>HTML</div>
+      <div>CSS</div>
+      <div>JavaScript</div>
+      <span>HTML is ok.</span> <span>CSS is dream.</span> <span>JavaScript is love.</span>
+
+      <p>
+        p represents paragraph without preserving spacing
+      </p>
+      <pre>
+      Text in         a pre element
+      is displayed in a fixed-width
+      font, and it preserves
+      both      spaces and
+      line breaks
+      </pre>
+
+      <ul>
+        <li>Coffee</li>
+        <li>Tea
+          <ul>
+            <li>Black tea</li>
+            <li>Green tea</li>
+          </ul>
+        </li>
+        <li>Milk</li>
+        <li>Juice</li>
+      </ul>
+
+      <ol>
+        <li>Ice</li>
+        <li>Pen</li>
+        <li>Ring</li>
+      </ol>
+
+    </article>
+
+
+    <!-- second article -->
+    <article>
+      <h2>HTML element table</h2>
+
+
+      <table>
+        <thead>
+          <tr>
+            <th colspan="2">Color</th>
+            <th>Paint</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Row 1, Cell 1</td>
+            <td>Row 1, Cell 2</td>
+            <td>Row 1, Cell 3</td> <!-- First row -->
+          </tr>
+          <tr>
+            <td rowspan="2">Row 2, Cell 1</td>
+            <td> Row 2, Cell 2 </td>
+            <td> Row 2, Cell 3 </td> <!-- Third cell added in the second row -->
+          </tr>
+
+          <!-- IV - 8. Third row with two columns -->
+          <tr>
+            <td>Row 3, Cell 1</td>
+            <td>Row 3, Cell 2</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+
+    <!-- V - 1. -->
+    <article>
+      <h2>HTML element - img, video, audio</h2>
+
+      <img src="https://picsum.photos/400/400" alt="random image" width="300" height="300" />
+
+      <img src="/lab-1-html/assets/html_lab_image.jpg" alt="Sky" width="300" height="300" />
+
+      <video width="250" autoplay>
+        <source src="/lab-1-html/assets/flower.webm" type="video/webm">
+        Sorry, your browser doesn't support embedded videos.
+      </video>
+
+      <figure>
+        <figcaption>Listen to the T-Rex:</figcaption>
+        <audio controls src="/lab-1-html/assets/t-rex-roar.mp3">
+          your Your browser does not support the <code>audio</code> element.
+        </audio>
+      </figure>
+
+
+    </article>
+
+  </main>
+
+  <footer>Copyright &copy; 2024</footer>
+</body>
+
+</html>

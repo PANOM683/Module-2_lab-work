@@ -1,0 +1,142 @@
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: purple;
+}
+
+.background-1 {
+  background: #68b0ab;
+}
+
+.background-2 {
+  background: #8fc0a9;
+}
+
+.background-3 {
+  background: #c8d5b9;
+}
+
+.background-4 {
+  background: #faf3dd;
+}
+
+.m-20 {
+  margin: 20px;
+}
+
+.h-80 {
+  height: 80px;
+}
+
+.h-400 {
+  height: 400px;
+}
+
+.w-80 {
+  width: 80px;
+}
+
+/* Add your answers here, do not modify the above CSS */
+
+.flex-container {
+  display: flex;
+  width: 80%;
+  background-color: #ffffff;
+  padding: 10px;
+  border: 1px solid #ec0b0be8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* flex-direction: column; */
+  flex-direction: row;
+}
+
+.flex-item-1 {
+  flex: 1;
+  background-color: #3498db;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.flex-item-2 {
+  flex: 1;
+  background-color: #d00a0a;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.flex-item-3 {
+  flex: 1;
+  background-color: #2ecc71;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.flex-item-4 {
+  flex: 1;
+  background-color: #f39c12;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  background-color: #f2f3f4;
+  color: white;
+  padding: 20px;
+}
+.flex-space-between {
+  justify-content: space-between;
+  /*justify-content: center;*/
+  /*justify-content: flex-end;*/
+}
+
+.flex-basis-item-50 {
+  flex-basis: 50%;
+  flex-basis: 25%;
+  box-sizing: border-box;
+  background-color: #54e77e;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+  /*flex-wrap: wrap-reverse;*/
+}
+
+.flex-menu {
+  list-style: none;
+  justify-content: flex-start;
+  /* justify-content: center; */
+  margin: 0;
+  padding: 0;
+  border-color: white;
+  background-color: #8fc0a9;
+}
+
+.flex-menu li {
+  margin: 0 1px;
+  padding: 1em;
+  text-align: center;
+  font-size-adjust: 0.6;
+  font-weight: bold;
+  flex-grow: 1;
+}
+
+.flex-menu li a {
+  color: black;
+  font-weight: bold;
+}
+
+.flex-menu .fourth-item {
+  order: 2;
+}

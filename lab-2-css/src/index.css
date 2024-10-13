@@ -1,0 +1,193 @@
+/* I. Selectors */
+article {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid black;
+}
+/* Put styles for questions 1.1, 1.2, 1.3 and 1.4 here */
+.style-me1 {
+  color: red;
+}
+#style-me2 {
+  color: blue;
+}
+.style-me1#style-me2 {
+  color: purple;
+}
+/* Put styles for questions 2.1 and 2.2 here */
+.my-descendants-are-styled p {
+  background-color: rgb(232, 76, 76);
+}
+.my-children-are-styled > p {
+  background-color: lightgreen;
+}
+
+/* II. Box model and common properties */
+/* Put styles for questions 1-8 here */
+
+/*.box {
+  background-color: lightblue;
+  width: 300px;
+  height: 300px;
+  border: 2px solid rgb(12, 12, 197);
+  margin: 20px;
+  padding: 10px 1%;
+}*/
+/*.box {
+  background-color: rgb(141, 30, 30);
+  width: 400px;
+  height: 350px;
+  margin: 20px;
+  text-align: center;
+}*/
+/*.box {
+  background-color: lightgreen;
+  width: 30rem; 
+  height: 15rem;
+  margin: 20px;
+  text-align: center;
+}*/
+.box {
+  background-color: rgb(171, 233, 48);
+  width: 50vw;
+  height: 50vh;
+  margin: 20px;
+  text-align: center;
+  width: 500px;
+  height: 500px;
+
+  height: 100 !important;
+  /* width: 80% !important; */
+}
+
+/* 3.1 - Border design */
+
+/*.box {
+  border: 10px solid #048be5bc;
+}*/
+
+/*.box {
+  border: 5px dashed #e74c3c;
+}*/
+
+/* 3.2 */
+.box {
+  border: 10px dotted #2ecc71;
+}
+
+/* 4.1 - Test two different values of box sizing */
+.box {
+  box-sizing: content-box;
+  box-sizing: border-box;
+
+  /* 5.1 - It will overflow text */
+  /* height: 50px; */
+
+  /* 5.2 - Set overflow css rule */
+  overflow: hidden;
+  overflow: scroll;
+  overflow: auto;
+
+  /* 6.1 - set wide outline */
+  outline: 10px solid #034e22;
+
+  /* 7.1, 7.2, 7.3 */
+  border-radius: 30px;
+  border-radius: 1ems;
+
+  border-radius: 50%;
+  padding: 4em;
+
+  background: url("./assets/images/img1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* III. Positioning */
+/* Put styles for questions 1-3 here */
+
+.position-absolute {
+  position: absolute;
+
+  top: 0;
+
+  background: #94ac9e;
+
+  left: 3em;
+  right: 3em;
+}
+
+.position-relative {
+  position: relative;
+
+  background: #f70808;
+  text-align: center;
+}
+
+.position-sticky {
+  position: sticky;
+  background: #766fd6;
+  top: 20px;
+}
+
+/* IV. Styling text */
+/* Put styles for questions 1-10 here */
+
+.text-style {
+  color: burlywood;
+  font-size: 20px;
+  font-size: 1.2em;
+
+  line-height: 1;
+  line-height: 1em;
+
+  font-weight: bold;
+  font-weight: 700;
+
+  text-align: center;
+  font-family: Roboto, sans-serif;
+}
+
+/* V. Styling links */
+/* Put styles for questions 1-3 here */
+
+/* 1 - style all the links */
+a,
+a:link {
+  color: aqua;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: brown;
+  text-decoration: none;
+}
+
+a:visited {
+  color: chartreuse;
+  font-style: italic;
+}
+
+/* VI. calc() */
+/* Put styles for questions 1-3 here */
+
+.calc-style {
+  width: 100vw;
+  background: #94ac9e;
+  width: calc(100vw - 100px);
+}
+
+.fixed-width-col {
+  display: inline-block;
+  width: 350px;
+}
+
+.fluid-col {
+  display: inline-block;
+  width: calc(100% - 360px);
+}
